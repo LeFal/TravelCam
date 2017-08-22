@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF23AD961F58720398CCA021 /* Pods_TravelCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968510DB5DA35EC134278E84 /* Pods_TravelCam.framework */; };
+		DAEE34A81F3478570090DBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE34A01F3478570090DBF5 /* AppDelegate.swift */; };
+		DAEE34A91F3478570090DBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEE34A11F3478570090DBF5 /* Assets.xcassets */; };
+		DAEE34AA1F3478570090DBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEE34A21F3478570090DBF5 /* LaunchScreen.storyboard */; };
+		DAEE34AB1F3478570090DBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEE34A41F3478570090DBF5 /* Main.storyboard */; };
+		DAEE34AC1F3478570090DBF5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAEE34A61F3478570090DBF5 /* Info.plist */; };
+		DAEE34AD1F3478570090DBF5 /* CameraViewController_main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE34A71F3478570090DBF5 /* CameraViewController_main.swift */; };
+		DAEE34B11F35A52F0090DBF5 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE34B01F35A52F0090DBF5 /* ImageService.swift */; };
+		DAEE34B31F36E9AD0090DBF5 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE34B21F36E9AD0090DBF5 /* Enumeration.swift */; };
+		DAEE34B51F3709ED0090DBF5 /* CameraViewController_location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE34B41F3709ED0090DBF5 /* CameraViewController_location.swift */; };
+		DAEE34B71F370A3E0090DBF5 /* CameraViewController_services.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE34B61F370A3E0090DBF5 /* CameraViewController_services.swift */; };
+		DAEE34B91F370AB80090DBF5 /* CameraViewController_camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE34B81F370AB80090DBF5 /* CameraViewController_camera.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5138EE8E54F4D5C1FBEACB17 /* Pods-TravelCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelCam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelCam/Pods-TravelCam.debug.xcconfig"; sourceTree = "<group>"; };
+		55B1BE5336F3CB83D7FFC0BB /* Pods-TravelCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelCam.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelCam/Pods-TravelCam.release.xcconfig"; sourceTree = "<group>"; };
+		968510DB5DA35EC134278E84 /* Pods_TravelCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB5A4481F3447D3000235B0 /* TravelCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEE34A01F3478570090DBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAEE34A11F3478570090DBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAEE34A31F3478570090DBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAEE34A51F3478570090DBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAEE34A61F3478570090DBF5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAEE34A71F3478570090DBF5 /* CameraViewController_main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController_main.swift; sourceTree = "<group>"; };
+		DAEE34B01F35A52F0090DBF5 /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		DAEE34B21F36E9AD0090DBF5 /* Enumeration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
+		DAEE34B41F3709ED0090DBF5 /* CameraViewController_location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController_location.swift; sourceTree = "<group>"; };
+		DAEE34B61F370A3E0090DBF5 /* CameraViewController_services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController_services.swift; sourceTree = "<group>"; };
+		DAEE34B81F370AB80090DBF5 /* CameraViewController_camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController_camera.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB5A4451F3447D3000235B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF23AD961F58720398CCA021 /* Pods_TravelCam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051A359FE64939476FA46F14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5138EE8E54F4D5C1FBEACB17 /* Pods-TravelCam.debug.xcconfig */,
+				55B1BE5336F3CB83D7FFC0BB /* Pods-TravelCam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0F0B4AAC3E82A09FC7B175F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968510DB5DA35EC134278E84 /* Pods_TravelCam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAB5A43F1F3447D3000235B0 = {
+			isa = PBXGroup;
+			children = (
+				DAEE349F1F3478570090DBF5 /* TravelCam */,
+				DAB5A4491F3447D3000235B0 /* Products */,
+				051A359FE64939476FA46F14 /* Pods */,
+				D0F0B4AAC3E82A09FC7B175F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB5A4491F3447D3000235B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5A4481F3447D3000235B0 /* TravelCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAEE349F1F3478570090DBF5 /* TravelCam */ = {
+			isa = PBXGroup;
+			children = (
+				DAEE34A01F3478570090DBF5 /* AppDelegate.swift */,
+				DAEE34A11F3478570090DBF5 /* Assets.xcassets */,
+				DAEE34A21F3478570090DBF5 /* LaunchScreen.storyboard */,
+				DAEE34A41F3478570090DBF5 /* Main.storyboard */,
+				DAEE34A61F3478570090DBF5 /* Info.plist */,
+				DAEE34A71F3478570090DBF5 /* CameraViewController_main.swift */,
+				DAEE34B41F3709ED0090DBF5 /* CameraViewController_location.swift */,
+				DAEE34B81F370AB80090DBF5 /* CameraViewController_camera.swift */,
+				DAEE34B61F370A3E0090DBF5 /* CameraViewController_services.swift */,
+				DAEE34B01F35A52F0090DBF5 /* ImageService.swift */,
+				DAEE34B21F36E9AD0090DBF5 /* Enumeration.swift */,
+			);
+			path = TravelCam;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB5A4471F3447D3000235B0 /* TravelCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB5A45A1F3447D3000235B0 /* Build configuration list for PBXNativeTarget "TravelCam" */;
+			buildPhases = (
+				167D70CE500009575B9F88F1 /* [CP] Check Pods Manifest.lock */,
+				DAB5A4441F3447D3000235B0 /* Sources */,
+				DAB5A4451F3447D3000235B0 /* Frameworks */,
+				DAB5A4461F3447D3000235B0 /* Resources */,
+				19905FFFBC096C82B3532454 /* [CP] Embed Pods Frameworks */,
+				14E22A7BD4260A2FFE5F3D93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelCam;
+			productName = CustomCameraPractice;
+			productReference = DAB5A4481F3447D3000235B0 /* TravelCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB5A4401F3447D3000235B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LeFal;
+				TargetAttributes = {
+					DAB5A4471F3447D3000235B0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 34UH748CF3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DAB5A4431F3447D3000235B0 /* Build configuration list for PBXProject "TravelCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB5A43F1F3447D3000235B0;
+			productRefGroup = DAB5A4491F3447D3000235B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB5A4471F3447D3000235B0 /* TravelCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB5A4461F3447D3000235B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEE34AC1F3478570090DBF5 /* Info.plist in Resources */,
+				DAEE34AB1F3478570090DBF5 /* Main.storyboard in Resources */,
+				DAEE34A91F3478570090DBF5 /* Assets.xcassets in Resources */,
+				DAEE34AA1F3478570090DBF5 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14E22A7BD4260A2FFE5F3D93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelCam/Pods-TravelCam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		167D70CE500009575B9F88F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		19905FFFBC096C82B3532454 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelCam/Pods-TravelCam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB5A4441F3447D3000235B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEE34AD1F3478570090DBF5 /* CameraViewController_main.swift in Sources */,
+				DAEE34B11F35A52F0090DBF5 /* ImageService.swift in Sources */,
+				DAEE34B91F370AB80090DBF5 /* CameraViewController_camera.swift in Sources */,
+				DAEE34A81F3478570090DBF5 /* AppDelegate.swift in Sources */,
+				DAEE34B71F370A3E0090DBF5 /* CameraViewController_services.swift in Sources */,
+				DAEE34B51F3709ED0090DBF5 /* CameraViewController_location.swift in Sources */,
+				DAEE34B31F36E9AD0090DBF5 /* Enumeration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAEE34A21F3478570090DBF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAEE34A31F3478570090DBF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DAEE34A41F3478570090DBF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAEE34A51F3478570090DBF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB5A4581F3447D3000235B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB5A4591F3447D3000235B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB5A45B1F3447D3000235B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5138EE8E54F4D5C1FBEACB17 /* Pods-TravelCam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34UH748CF3;
+				INFOPLIST_FILE = TravelCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LeFal.TravelCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DAB5A45C1F3447D3000235B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B1BE5336F3CB83D7FFC0BB /* Pods-TravelCam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34UH748CF3;
+				INFOPLIST_FILE = TravelCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LeFal.TravelCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB5A4431F3447D3000235B0 /* Build configuration list for PBXProject "TravelCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB5A4581F3447D3000235B0 /* Debug */,
+				DAB5A4591F3447D3000235B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB5A45A1F3447D3000235B0 /* Build configuration list for PBXNativeTarget "TravelCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB5A45B1F3447D3000235B0 /* Debug */,
+				DAB5A45C1F3447D3000235B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB5A4401F3447D3000235B0 /* Project object */;
+}

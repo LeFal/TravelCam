@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CameraViewController" customModule="TravelCam" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LGO-UD-qLh">
+                                <rect key="frame" x="0.0" y="126" width="375" height="375"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="LGO-UD-qLh" secondAttribute="height" multiplier="1:1" id="ld2-Jf-E3i"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqZ-9A-isd" userLabel="flash">
+                                <rect key="frame" x="20" y="20" width="11" height="19.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PqZ-9A-isd" secondAttribute="height" multiplier="256:450" id="DFA-Jr-9VU"/>
+                                </constraints>
+                                <state key="normal" image="flash"/>
+                                <connections>
+                                    <action selector="activateFlash:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ega-dk-DV5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvr-i0-Kf2" userLabel="language">
+                                <rect key="frame" x="159.5" y="15.5" width="56" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="LAN"/>
+                                <connections>
+                                    <action selector="setLanguage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yp5-Wi-bzd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLy-BR-s2m">
+                                <rect key="frame" x="154" y="570" width="67" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZLy-BR-s2m" secondAttribute="height" multiplier="1:1" id="GOC-Nc-Clg"/>
+                                </constraints>
+                                <state key="normal" title="capture" image="takeBtn"/>
+                                <connections>
+                                    <action selector="captureCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6bn-Bp-QDD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0H-kt-xAH" userLabel="switch">
+                                <rect key="frame" x="316.5" y="591.5" width="33.5" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="u0H-kt-xAH" secondAttribute="height" multiplier="512:385" id="wsv-cs-5dp"/>
+                                </constraints>
+                                <state key="normal" image="SwitchCamera"/>
+                                <connections>
+                                    <action selector="changeCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nb9-mi-4LS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0Q-r0-9a9">
+                                <rect key="frame" x="337" y="20" width="18" height="18.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="k0Q-r0-9a9" secondAttribute="height" multiplier="1:1" id="xJC-Bt-vaG"/>
+                                </constraints>
+                                <state key="normal" image="lattice"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9XA-zY-uQ5">
+                                <rect key="frame" x="159.5" y="59.5" width="56" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="setLanguageToEnglish:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qwK-py-G8u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NWZ-fy-xQf">
+                                <rect key="frame" x="58.5" y="59.5" width="56" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="setLanguageToDevice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iUw-dj-1qG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bW5-C0-22G">
+                                <rect key="frame" x="261" y="59.5" width="56" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="setLanguageToLocale:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jhA-wA-mPL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PqZ-9A-isd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="0IE-Z5-xHF"/>
+                            <constraint firstItem="ZLy-BR-s2m" firstAttribute="width" secondItem="LGO-UD-qLh" secondAttribute="width" multiplier="0.18" id="18L-ew-e6q"/>
+                            <constraint firstAttribute="trailing" secondItem="u0H-kt-xAH" secondAttribute="trailing" constant="25" id="1es-xn-Dvo"/>
+                            <constraint firstItem="k0Q-r0-9a9" firstAttribute="width" secondItem="LGO-UD-qLh" secondAttribute="width" multiplier="0.05" id="7kS-xW-ztV"/>
+                            <constraint firstItem="NWZ-fy-xQf" firstAttribute="height" secondItem="9XA-zY-uQ5" secondAttribute="height" id="9Bl-O0-y6A"/>
+                            <constraint firstItem="9XA-zY-uQ5" firstAttribute="width" secondItem="nvr-i0-Kf2" secondAttribute="width" id="BgY-or-NLZ"/>
+                            <constraint firstItem="LGO-UD-qLh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-20" id="DpC-l3-YIj"/>
+                            <constraint firstItem="LGO-UD-qLh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FMi-MW-2q8"/>
+                            <constraint firstAttribute="trailing" secondItem="k0Q-r0-9a9" secondAttribute="trailing" constant="20" id="GR0-fd-U8M"/>
+                            <constraint firstItem="u0H-kt-xAH" firstAttribute="width" secondItem="ZLy-BR-s2m" secondAttribute="width" multiplier="0.5" id="Jb4-Z5-O20"/>
+                            <constraint firstAttribute="trailing" secondItem="LGO-UD-qLh" secondAttribute="trailing" id="JdG-xf-a9g"/>
+                            <constraint firstItem="k0Q-r0-9a9" firstAttribute="centerY" secondItem="nvr-i0-Kf2" secondAttribute="centerY" id="LJP-0f-0Ut"/>
+                            <constraint firstItem="NWZ-fy-xQf" firstAttribute="width" secondItem="9XA-zY-uQ5" secondAttribute="width" id="MbE-Hg-fnu"/>
+                            <constraint firstItem="bW5-C0-22G" firstAttribute="height" secondItem="9XA-zY-uQ5" secondAttribute="height" id="RpH-OJ-o6C"/>
+                            <constraint firstItem="ZLy-BR-s2m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V41-s3-Lcs"/>
+                            <constraint firstItem="NWZ-fy-xQf" firstAttribute="centerY" secondItem="9XA-zY-uQ5" secondAttribute="centerY" id="ZS0-wu-ItC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ZLy-BR-s2m" secondAttribute="bottom" constant="30" id="ad7-ee-g6M"/>
+                            <constraint firstItem="bW5-C0-22G" firstAttribute="width" secondItem="9XA-zY-uQ5" secondAttribute="width" id="b3u-J0-7uW"/>
+                            <constraint firstItem="bW5-C0-22G" firstAttribute="leading" secondItem="9XA-zY-uQ5" secondAttribute="trailing" constant="45" id="c4g-fP-St1"/>
+                            <constraint firstItem="nvr-i0-Kf2" firstAttribute="centerY" secondItem="PqZ-9A-isd" secondAttribute="centerY" id="cqB-gj-B5R"/>
+                            <constraint firstItem="9XA-zY-uQ5" firstAttribute="leading" secondItem="NWZ-fy-xQf" secondAttribute="trailing" constant="45" id="dXH-Tg-t9v"/>
+                            <constraint firstItem="u0H-kt-xAH" firstAttribute="centerY" secondItem="ZLy-BR-s2m" secondAttribute="centerY" id="gIJ-PT-PTe"/>
+                            <constraint firstItem="nvr-i0-Kf2" firstAttribute="width" secondItem="LGO-UD-qLh" secondAttribute="width" multiplier="0.15" id="gif-oa-sHm"/>
+                            <constraint firstItem="9XA-zY-uQ5" firstAttribute="top" secondItem="nvr-i0-Kf2" secondAttribute="bottom" constant="15" id="hgf-6B-HjG"/>
+                            <constraint firstItem="PqZ-9A-isd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="omB-kV-39S"/>
+                            <constraint firstItem="9XA-zY-uQ5" firstAttribute="centerX" secondItem="nvr-i0-Kf2" secondAttribute="centerX" id="p8n-af-iwJ"/>
+                            <constraint firstItem="PqZ-9A-isd" firstAttribute="width" secondItem="LGO-UD-qLh" secondAttribute="width" multiplier="0.03" id="q3g-9N-7St"/>
+                            <constraint firstItem="bW5-C0-22G" firstAttribute="centerY" secondItem="9XA-zY-uQ5" secondAttribute="centerY" id="su2-bc-Acy"/>
+                            <constraint firstItem="nvr-i0-Kf2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yhp-2M-UeX"/>
+                            <constraint firstItem="LGO-UD-qLh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zUh-zl-UyD"/>
+                            <constraint firstItem="9XA-zY-uQ5" firstAttribute="height" secondItem="nvr-i0-Kf2" secondAttribute="height" id="zpX-EN-6RU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraView" destination="LGO-UD-qLh" id="bRo-NR-BxR"/>
+                        <outlet property="flashBtn" destination="PqZ-9A-isd" id="Rqh-D7-KGy"/>
+                        <outlet property="languageBtn" destination="nvr-i0-Kf2" id="dRq-Ez-EQh"/>
+                        <outlet property="languageBtnSetDevice" destination="NWZ-fy-xQf" id="xwP-fz-2PU"/>
+                        <outlet property="languageBtnSetEnglish" destination="9XA-zY-uQ5" id="H4X-se-Ibe"/>
+                        <outlet property="languageBtnSetLocal" destination="bW5-C0-22G" id="8zK-WP-3xF"/>
+                        <outlet property="latticeBtn" destination="k0Q-r0-9a9" id="p1f-Xz-4MP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SwitchCamera" width="512" height="385"/>
+        <image name="flash" width="256" height="450"/>
+        <image name="lattice" width="264" height="265"/>
+        <image name="takeBtn" width="512" height="512"/>
+    </resources>
+</document>
